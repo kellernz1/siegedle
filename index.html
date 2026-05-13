@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siegedle - Rainbow Six Siege</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SIEGEDLE</h1>
+        <p id="subtitle">Escolha um modo de jogo</p>
+    </header>
+
+    <main>
+        <!-- MENU PRINCIPAL -->
+        <div id="main-menu" class="menu-section">
+            <button class="menu-btn" onclick="openMode('operator')">Adivinhe o Operador</button>
+            <button class="menu-btn" onclick="openMode('map')">Adivinhe o Mapa</button>
+        </div>
+
+        <!-- MODO OPERADOR -->
+        <div id="operator-mode" class="game-section" style="display: none;">
+            <button class="back-btn" onclick="openMode('menu')">← Voltar ao Menu</button>
+            
+            <div class="input-section">
+                <input type="text" id="op-guess-input" placeholder="Digite o nome do operador..." autocomplete="off">
+                <button id="op-guess-btn">Chutar</button>
+                <div id="op-suggestions" class="suggestions-box"></div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-header">
+                    <div>Operador</div>
+                    <div>Gênero</div>
+                    <div>Lado</div>
+                    <div>Unidade</div>
+                    <div>Ano</div>
+                    <div>Veloc.</div>
+                </div>
+                <div id="op-results" class="results-grid"></div>
+            </div>
+        </div>
+
+        <!-- MODO MAPA -->
+        <div id="map-mode" class="game-section" style="display: none;">
+            <button class="back-btn" onclick="openMode('menu')">← Voltar ao Menu</button>
+            
+            <div class="map-container">
+                <!-- A imagem do mapa diário aparecerá aqui -->
+                <img id="daily-map-image" src="" alt="Adivinhe este mapa" class="map-image">
+            </div>
+
+            <div class="input-section">
+                <input type="text" id="map-guess-input" placeholder="Qual é o mapa?..." autocomplete="off">
+                <button id="map-guess-btn">Chutar</button>
+                <div id="map-suggestions" class="suggestions-box"></div>
+            </div>
+
+            <div id="map-results" class="results-list"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
