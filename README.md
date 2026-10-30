@@ -1,4 +1,4 @@
-# 🎯 Siegedle
+# Siegedle
 
 A daily guessing game inspired by **Wordle** and **Loldle**, created specifically for **Rainbow Six Siege** players.
 
@@ -6,11 +6,11 @@ Test your tactical knowledge by guessing the **Operator of the Day** or identify
 
 ---
 
-## 🎮 Game Modes
+## Game Modes
 
 ---
 
-### 🧠 1. Guess the Operator
+### 1. Guess the Operator
 
 Guess the secret Rainbow Six Siege operator of the day.
 
@@ -22,7 +22,7 @@ After each guess, the game provides visual feedback based on the operator’s at
 - 🟥 **Red Box** → Incorrect attribute
 - ⬆️ / ⬇️ **Arrows** → Indicates whether the secret operator’s value is higher or lower
 
-#### 📊 Compared Attributes
+#### Compared Attributes
 
 - Gender
 - Side (Attacker / Defender)
@@ -32,26 +32,26 @@ After each guess, the game provides visual feedback based on the operator’s at
 
 ---
 
-### 🗺️ 2. Guess the Map
+### 2. Guess the Map
 
 Players must identify the correct map using the smart autocomplete search bar.
 
 ---
 
-## ✨ Features
+## Features
 
-### 📅 Daily Seed System
+### Daily Seed System
 The secret operator and map change every day at midnight.
 
 Every player receives the same daily challenge.
 
-### 🔎 Smart Auto-complete
+### Smart Auto-complete
 Search operators and maps instantly with:
 - Real-time suggestions
 - Keyboard navigation
 - Operator icons
 
-### 🖼️ Image Fallback System
+### Image Fallback System
 Automatically attempts modern image formats first:
 - `.avif`
 - `.webp`
@@ -60,7 +60,7 @@ If unsupported, the game falls back to:
 - `.png`
 - `.jpg`
 
-### ⚡ Vanilla Tech Stack
+### Vanilla Tech Stack
 Built entirely with:
 - HTML
 - CSS
@@ -70,7 +70,7 @@ No frameworks, APIs, or external libraries required.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 Running the project is extremely simple.
 
@@ -90,12 +90,12 @@ cd siegedle
 
 Open the `index.html` file in any modern web browser.
 
-> 💡 Recommended:  
+> Recommended:  
 > If you're using VS Code, use the **Live Server** extension for a smoother development experience.
 
 ---
 
-## 📁 Folder Structure & Assets
+## Folder Structure & Assets
 
 To make the game work correctly, you must provide the images for:
 - Backgrounds
@@ -123,18 +123,18 @@ Example structure:
 
 ---
 
-## 🖼️ Naming Convention for Images
+## Naming Convention for Images
 
 The JavaScript automatically formats names to find the correct files.
 
-### ✅ Rules
+### Rules
 
 - All lowercase
 - No accents
 - Spaces replaced with hyphens `-`
 - Parentheses removed or converted to hyphens
 
-### 📌 Examples
+### Examples
 
 | Original Name | File Name |
 |---|---|
@@ -143,7 +143,7 @@ The JavaScript automatically formats names to find the correct files.
 | Mansion | `mansion.jpg` |
 | Arranha Céu | `arranha-ceu.jpg` |
 
-### 📦 Supported Formats
+### Supported Formats
 
 - `.avif`
 - `.webp`
@@ -152,7 +152,7 @@ The JavaScript automatically formats names to find the correct files.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### HTML5
 Semantic structure and accessible layout.
@@ -175,7 +175,7 @@ Handles:
 
 ---
 
-## 🧠 Core Concepts Behind the Project
+## Core Concepts Behind the Project
 
 This project was designed to practice:
 
@@ -187,19 +187,18 @@ This project was designed to practice:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- [ ] 🏆 Win streak and statistics tracking
-- [ ] 🌍 Multiplayer challenge sharing
-- [ ] 🎵 Sound effects and UI feedback
-- [ ] 📱 Progressive Web App (PWA) support
-- [ ] 🎨 Animated reveal transitions
-- [ ] 🧩 Additional game modes
-- [ ] 💾 Save progress with `localStorage`
+- [ ] Win streak and statistics tracking
+- [ ] Sound effects and UI feedback
+- [ ] Progressive Web App (PWA) support
+- [ ] Animated reveal transitions
+- [ ] Additional game modes
+- [ ] Save progress with `localStorage`
 
 ---
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 This project is an unofficial fan creation.
 
@@ -209,20 +208,15 @@ This project was created for educational and entertainment purposes only and is 
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the **MIT License**.
 
 Feel free to study, modify, and expand it.
 
----
-
-## 👨‍💻 Author
-
-Developed by **Keller Nz**
 
 ---
 
-## ⭐ Support
+## Support
 
 If you enjoyed this project, consider giving it a ⭐ on GitHub!
